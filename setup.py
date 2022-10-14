@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="okcolor",
-    version="1.0.1",
+    version="1.0.2",
     author="Parth Parikh",
     author_email="parthparikh1999p@gmail.com",
     description="Generates aesthetically pleasing RGB colors",
