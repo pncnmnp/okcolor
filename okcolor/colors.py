@@ -38,7 +38,7 @@ def color(sat=0.5, val=0.95):
     global _HUE
     _HUE = (_HUE+_GOLDEN_RATIO)%1
     if 0 <= sat <= 1 and 0 <= val <= 1:
-        return _hsv_to_rgb(HUE*360, sat, val)
+        return _hsv_to_rgb(_HUE*360, sat, val)
     else:
         raise ValueError("sat/val should be in range [0, 1]")
 
